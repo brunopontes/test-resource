@@ -1,0 +1,65 @@
+# Change Log
+All notable changes to this project will be documented in this file.
+
+
+## 2019-03-17
+### Added
+- Added file log by request and response
+
+### Changed
+- Change base return to class
+
+
+## 2019-03-15
+### Added
+- Added first class mapper
+- Added first view-model
+
+### Changed
+- Parse model to view-model in service
+- Change colors logger
+- Change config per env
+
+
+## 2019-03-12
+### Added
+- Added first class mapper
+- Added first view-model
+
+### Changed
+- Parse model to view-model in service
+- Change colors logger
+- Change config per env
+
+
+## 2019-03-11
+### Added
+- Added first class repository
+- Added first class service
+- Added first class controller
+- Added routes
+
+### Changed
+- Validation timeout query in database
+
+
+## 2019-03-10
+### Added
+- Added configuration with consign
+- Created designer partners
+- Added logger configuration
+- Created model with auto-sequelize
+
+### Changed
+- Start project with nodemon + babel
+
+
+## 2019-03-09
+### Added
+- Commit initial
+- Added connection to SQL Server
+- Added configuration file with database
+- Added many dependencies
+- Added nodemon and babel
+
+### Changed

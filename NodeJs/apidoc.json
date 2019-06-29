@@ -1,0 +1,7 @@
+{
+    "name": "extract-service",
+    "version": "1.0.0",
+    "description": "Service REST API on NodeJs to send Extract",
+    "title": "extract-service",
+    "url": ""
+}
