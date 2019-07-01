@@ -1,0 +1,37 @@
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-header">
+          <i class="fa fa-align-justify"></i> Extrato simplificado
+        </div>
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Data do lançamento</th>
+                <th>Descrição</th>
+                <th>Número</th>
+                <th>Situação</th>
+                <th>Data de confirmação</th>
+                <th>Dados bancários</th>
+                <th>Valor final</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let obj of extract | async">
+                <td>{{obj.DateLaunch}}</td>
+                <td>{{obj.Description}}</td>
+                <td>{{obj.Number}}</td>
+                <td>{{obj.Location}}</td>
+                <td>{{obj.DateConfirmation}}</td>
+                <td>{{obj.BankDetailsComplete}}</td>
+                <td>{{obj.FinalValueLocal}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

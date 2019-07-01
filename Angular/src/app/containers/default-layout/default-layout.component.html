@@ -1,0 +1,27 @@
+<app-header [navbarBrandRouterLink]="['/extract']" [fixed]="true"
+  [navbarBrandFull]="{src: 'assets/img/brand/logo.svg', width: 89, height: 25, alt: 'CoreUI Logo'}"
+  [navbarBrandMinimized]="{src: 'assets/img/brand/sygnet.svg', width: 30, height: 30, alt: 'CoreUI Logo'}"
+  [sidebarToggler]="'lg'" [asideMenuToggler]="'lg'">
+  <ul class="nav navbar-nav ml-auto">
+
+  </ul>
+</app-header>
+<div class="app-body">
+  <app-sidebar [fixed]="true" [display]="'lg'">
+    <app-sidebar-nav [navItems]="navItems" [perfectScrollbar] [disabled]="sidebarMinimized"></app-sidebar-nav>
+    <app-sidebar-minimizer></app-sidebar-minimizer>
+  </app-sidebar>
+  <main class="main">
+    <cui-breadcrumb>
+      <li class="breadcrumb-menu d-md-down-none">
+      </li>
+    </cui-breadcrumb>
+    <div class="container-fluid">
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+</div>
+<app-footer>
+  <span><a href="/">Test </a> &copy; 2019</span>
+  <span class="ml-auto">Powered by <a href="https://gitlab.com/bspontes">b. s. pontes</a></span>
+</app-footer>

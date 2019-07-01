@@ -1,0 +1,12 @@
+// Here you can add other styles
+.btn:not(:disabled):not(.disabled) {
+    margin: 10px;
+}
+
+.header-fixed .app-header {
+    padding-right: 10px;
+}
+
+.main .container-fluid {
+    padding: 10px 30px;
+}
